@@ -4,7 +4,7 @@ import hasmukhFrontPagePicture from "../assets/hasmukh-front-page-picture.jpeg";
 function PersonalProfilePage() {
   return (
     <>
-      <h3>Hi there, This is Hasmukh</h3>
+      <h3>Hi there, This is Hasmukh Kumar</h3>
 
       <img
         src={hasmukhFrontPagePicture}
