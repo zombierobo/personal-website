@@ -4,16 +4,16 @@ import hasmukhFrontPagePicture from "../assets/hasmukh-front-page-picture.jpeg";
 function PersonalProfilePage() {
   return (
     <>
-      <h3>Hi there, This is Hasmukh Kumar</h3>
-
       <img
         src={hasmukhFrontPagePicture}
         alt="Hasmukh's picture"
         className="hasmukh-front-page-picture"
       />
 
-      <p className="read-the-docs">
-        I'm a software engineer based in London, United Kingdom
+      <h3 className="title">Hi there, This is Hasmukh Kumar</h3>
+      <p className="description">
+        I'm a software engineer based in London, United Kingdom. See my profile
+        👇 and lets get in touch.
       </p>
 
       <div className="links">
@@ -23,19 +23,19 @@ function PersonalProfilePage() {
         >
           LinkedIn
         </a>
-        <br />
         <a href="https://github.com/zombierobo" target="_blank">
           Github
         </a>
-        <br />
         <a
           href="https://drive.google.com/file/d/1LLFN3oSZCg9kQE6q_NrzMev2fXGEt7Dv/view?usp=sharing"
           target="_blank"
         >
           Download CV/Resume
         </a>
-        <br />
         <a target="_blank">hasmukhsuthar98 @ gmail .com</a>
+        <a target="_blank" href="https://calendly.com/hasmukhsuthar98/30min">
+          Calendly | Let's chat
+        </a>
       </div>
     </>
   );
