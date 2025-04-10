@@ -1,10 +1,10 @@
 import "./App.css";
+import PersonalProfilePage from "./personal-profile-page/PersonalProfilePage";
 
 function App() {
   return (
     <>
-      <h1>Hi, This is Hasmukh</h1>
-      <p className="read-the-docs">Under construction personal website.</p>
+      <PersonalProfilePage />
     </>
   );
 }

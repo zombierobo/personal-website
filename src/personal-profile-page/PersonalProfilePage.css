@@ -1,0 +1,26 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.hasmukh-front-page-picture {
+  max-width: 300px;
+  height: auto;
+}
+
+.links > a {
+  border: 1px solid #888;
+  padding: 0.5rem;
+  display: block;
+  margin-top: 0.5rem;
+}
